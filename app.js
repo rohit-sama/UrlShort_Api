@@ -16,8 +16,7 @@ app.use(express.json());
 app.use('/', indexRouter);
 app.use('/api', urlsRouter);
 
-// Server Setup
-const PORT = process.env.PORT || 3333;
-app.listen(PORT, () => {
-  console.log(`Server is running at PORT ${PORT}`);
+// Server Setup;
+app.listen( () => {
+  console.log(`Server is running`);
 });
